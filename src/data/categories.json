@@ -1,0 +1,45 @@
+
+[
+    {
+      "id": "mice",
+      "name": "Mice",
+      "icon": "🖱️",
+      "color": "#C94244",
+      "colorText": "#fff"
+    },
+    {
+      "id": "keyboards",
+      "name": "Keyboards",
+      "icon": "⌨️",
+      "color": "#EE7546",
+      "colorText": "#fff"
+    },
+    {
+      "id": "audio",
+      "name": "Headsets",
+      "icon": "🎧",
+      "color": "#FFF",
+      "colorText": "#4C4C4C"
+    },
+    {
+      "id": "monitors",
+      "name": "Monitors",
+      "icon": "🖥️",
+      "color": "#C94244",
+      "colorText": "#fff"
+    },
+    {
+      "id": "mousepads",
+      "name": "Mousepads",
+      "icon": "📦",
+      "color": "#EE7546",
+      "colorText": "#fff"
+    },
+    {
+      "id": "cables",
+      "name": "Cables",
+      "icon": "🔌",
+      "color": "#FFF",
+      "colorText": "#4C4C4C"
+    }
+  ]
