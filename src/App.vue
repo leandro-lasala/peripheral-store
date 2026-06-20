@@ -1,15 +1,9 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import AppHeader from './components/layout/AppHeader.vue/index.js'
 </script>
 
 <template>
-  <nav>
-    <RouterLink to="/">HOME</RouterLink>
-    |
-    <RouterLink to="/products">PRODUCTOS</RouterLink>
-  </nav>
-
-  <hr>
-
+  <AppHeader />
   <RouterView />
 </template>
