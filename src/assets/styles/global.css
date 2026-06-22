@@ -1,0 +1,16 @@
+/* font-family: "Poppins", sans-serif; */
+
+body {
+  font-family: 'Crimson Text', serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+#app {
+  min-height: 100vh;
+}
+
+main {
+  width: min(90%, var(--container-width));
+  margin: 0 auto;
+}

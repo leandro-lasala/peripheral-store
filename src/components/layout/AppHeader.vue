@@ -47,8 +47,8 @@ import { RouterLink } from 'vue-router'
   list-style: none;
 }
 
-.nav-links li {
+.nav-links li a {
   cursor: pointer;
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 </style>
