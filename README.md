@@ -1,38 +1,88 @@
-# peripheral-store
+# TechStore - Proyecto Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+## Descripción
 
-## Recommended IDE Setup
+TechStore es una aplicación web desarrollada con Vue 3 que simula una tienda online de productos tecnológicos. Permite a los usuarios navegar por el catálogo de productos, visualizar información relevante y acceder a una interfaz de inicio de sesión y registro.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Recommended Browser Setup
+## Funcionalidades Principales
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+### Página de Inicio
+- Landing page responsive.
+- Sección principal (Hero) con presentación de la tienda.
+- Sección informativa sobre las ventajas de la marca.
+- Encabezado y pie de página reutilizables.
 
-## Customize configuration
+### Catálogo de Productos
+- Listado dinámico de productos obtenido desde archivos JSON.
+- Visualización de productos mediante tarjetas (cards).
+- Cada producto muestra:
+  - Imagen
+  - Nombre
+  - Descripción
+  - Categoría
+- Diseño responsive adaptado a distintos dispositivos.
+- Efectos visuales al interactuar con las tarjetas.
+- Filtros de categorias
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Sistema de Autenticación (Simulado)
+- Formulario de inicio de sesión.
+- Formulario de registro de usuarios.
+- Validación básica de campos obligatorios.
+- Cambio dinámico entre Login y Registro.
+- Redirección al Home luego de completar correctamente el formulario de inicio de sesión.
 
-## Project Setup
+### Navegación entre Vistas
+Implementada mediante Vue Router.
 
-```sh
-npm install
-```
+Rutas disponibles:
+- Inicio (`/`)
+- Productos (`/products`)
+- Login (`/login`)
 
-### Compile and Hot-Reload for Development
+### Manejo de Datos
+- Información de productos almacenada en archivos JSON.
+- Renderizado dinámico utilizando directivas de Vue:
+  - `v-for`
+  - `v-if`
+  - `v-model`
 
-```sh
-npm run dev
-```
+---
 
-### Compile and Minify for Production
+## Tecnologías Utilizadas
 
-```sh
-npm run build
-```
+- Vue 3
+- Vue Router
+- JavaScript 
+- HTML5
+- CSS3
+- Vite
+
+---
+
+## Estructura General del Proyecto
+
+src/
+├── assets/
+├── components/
+├── data/
+├── router/
+├── views/
+├── App.vue
+└── main.js
+
+---
+
+## Posibles Mejoras Futuras
+
+- Vista de detalle de producto.
+- Carrito de compras.
+- Buscador de productos.
+- Integración con una API o base de datos.
+
+---
+
+## Autor
+Micaela Carollo Fatima Funes Leandro Lasala
+Proyecto desarrollado con fines académicos para la práctica de Vue.js y el desarrollo de aplicaciones SPA (Single Page Applications).
