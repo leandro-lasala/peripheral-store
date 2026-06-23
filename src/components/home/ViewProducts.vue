@@ -1,19 +1,29 @@
+<script setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+const goToProducts = () => {
+  router.push('/products')
+}
+</script>
+
 <template>
   <section class="featured-products">
     <h2>View products</h2>
     <p>Browse our full collection and find what fits your needs.</p>
 
     <div class="products-showcase">
-      <div class="pill image-pill">
-        <img src="../../assets/images/beoplay-hx-sand.jpg" alt="" />
+      <div class="pill image-pill" @click="goToProducts">
+        <img src="/public/images/beoplay-hx-sand.jpg" alt="" />
       </div>
 
-      <button class="pill button-pill orange">View</button>
+      <button class="pill button-pill orange" @click="goToProducts">View</button>
 
-      <button class="pill button-pill red">View</button>
+      <button class="pill button-pill red" @click="goToProducts">View</button>
 
-      <div class="pill image-pill">
-        <img src="../../assets/images/keynova-orbit-tkl.jpg" alt="" />
+      <div class="pill image-pill" @click="goToProducts">
+        <img src="/public/images/keynova-orbit-tkl.jpg" alt="" />
       </div>
     </div>
   </section>

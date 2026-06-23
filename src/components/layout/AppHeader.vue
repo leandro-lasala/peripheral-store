@@ -10,7 +10,7 @@ import { RouterLink } from 'vue-router'
       <ul class="nav-links">
         <li><RouterLink to="/">Home</RouterLink></li>
         <li><RouterLink to="/products">Products</RouterLink></li>
-        <a href="#why-choose-us"> Why Choose Us </a>
+        <li><RouterLink to="/login"> Login </RouterLink></li>
       </ul>
 
       <div class="cart"></div>

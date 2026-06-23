@@ -1,3 +1,13 @@
+<script setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+const goToLogin = () => {
+  router.push('/login')
+}
+</script>
+
 <template>
   <section class="hero-section">
     <div class="hero-card">
@@ -5,9 +15,9 @@
 
       <p>Clean, reliable peripherals designed for everyday use.</p>
 
-      <img src="../../assets/images/hero.png" alt="Hero Keyboard" />
+      <img src="/public/images/hero.png" alt="Hero Keyboard" />
 
-      <button>Sign In / Register</button>
+      <button @click="goToLogin">Sign In / Register</button>
     </div>
   </section>
 </template>

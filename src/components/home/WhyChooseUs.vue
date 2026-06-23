@@ -13,19 +13,19 @@
         <div class="reason-card">
           <h3>Ergonomics</h3>
           <p>Meticulously engineered to adapt to your body</p>
-          <img src="../../assets/images/choose 3.png" alt="Reason 1" />
+          <img src="/public/images/choose 3.png" alt="Reason 1" />
         </div>
 
         <div class="reason-card">
           <h3>Quality</h3>
           <p>Selected premium materials and high-end finishes</p>
-          <img src="../../assets/images/choose 1.png" alt="Reason 2" />
+          <img src="/public/images/choose 1.png" alt="Reason 2" />
         </div>
 
         <div class="reason-card">
           <h3>Design</h3>
           <p>Beautiful peripherals that transform and inspire your daily desk setup</p>
-          <img src="../../assets/images/choose 2.png" alt="Reason 3" />
+          <img src="/public/images/choose 2.png" alt="Reason 3" />
         </div>
       </div>
     </div>
